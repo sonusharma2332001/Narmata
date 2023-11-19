@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo img{
+    height: 60px;
+}
+.navbar{
+    background-color: rgb(194, 191, 191);
+    position: fixed;
+    width: 100%;
+}
+
+.right{
+    margin-right: 20px;
+}
+
+.right ul {
+    display: flex;
+}
+
+.right ul li{
+    list-style: none;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.right ul li:hover{
+    color: rgb(214, 173, 98);
+}
+
+
+.main{
+    text-align: center;
+}
+
+.photo video{
+    width: 100%;
+    height: 80%;
+}
+
+.main-content{
+    margin:  20px 80px 20px 80px ;
+    
+}
+
+.main-content p{
+    font-size: 35px;
+    font-weight: 100;
+    color: rgb(78, 70, 70);
+}
+
+.about{
+    text-align: center;
+    /* z-index: -1; */
+}
+.about-img img{
+    width: 70%;
+    opacity: .6;
+}
+
+.about-content{
+    width: 50%;
+    margin: auto;
+    /* border: 1px solid black; */
+    /* background-color: rgb(194, 37, 37); */
+    /* color: rgb(238, 129, 129); */
+    margin-top: -100px;
+    z-index: 1;
+    box-shadow: 5px 5px 5px 5px lightblue;
+
+}
+
+
+.story-goal{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    flex-wrap: wrap;
+}
+
+.story-Card{
+    border: 1px solid black;
+    padding: 20px;
+    background-color: lightgray;
+    box-shadow: 5px 5px 5px 5px lightblue;
+    width: 40%;
+}
+
+.story-Card img{
+    width: 280px;
+}
+
+.story-Card p{
+    width: 70%;
+    margin: auto;
+}
+
+
+.services{
+    display: flex;
+    flex-direction: column;
+}
+
+.allcards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.service-card{
+    width: 25%;
+    box-shadow: 5px 5px 5px 5px lightblue;
+    margin-bottom:20px ;
+}
+
+.service-card img{
+    width: 100%;
+}
+
+.service-card-constent{
+    background-color: rgb(216, 208, 208);
+}
+
+.services-content{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.contact{
+
+    background-color: rgb(157, 157, 247);
+    padding: 80px 30px 30px 30px;
+    text-align: center;
+}
+
+
+
+.contact-numbers{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-numbers p{
+    padding: 20px;
+    background-color: brown;
+    margin: 20px;
+    width: max-content;
+
+}
+
+.status{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.status-cart img{
+    width: 250px;
+    height: 250px;
+}
+
+.teams-containt{
+    margin: 50px;
+    text-align: center;
+}
+
+.teams-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.team-member{
+    background-color: gainsboro;
+    padding-bottom: 10px;
+}
+
+.team-member img{
+    width: 300px;
+    height: 300px;
+}
+
+
+.reviews{
+    margin-top:20px ;
+    background-color: aliceblue;
+    padding-top: 50px;
+}
+
+
+.all-reviewer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.reviewer{
+    width: 300px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.reviewer img{
+    width: 100%;
+}
+
+.reviewer p{
+    text-align: center;
+}
+
+
+.Our-clients{
+    margin: 40px 0 40px 0;
+    text-align: center;
+}
+
+
+.my-footer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(192, 187, 187);
+    padding-top: 40px;
+    text-align: center;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+
+.footer-links ul li{
+    text-decoration: underline;
+    list-style: none;
+    padding: 10px;
+}
+
+footer{
+    background-color: black;
+    color: wheat;
+    padding: 10px;
+}
